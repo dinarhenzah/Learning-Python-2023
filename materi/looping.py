@@ -3,22 +3,22 @@
 
 # For
 # Menggunakan variable list untuk dilooping
-# var_list = [1,2,3,4,5,6,7,8,9,10]
-# for i in var_list:
-#     print(i)
+var_list = [1,2,3,4,5,6,7,8,9,10]
+for i in var_list:
+    print(i)
 
 print("========== Batas ===========")
 # Menggunakan range(start,stop,step)
-# for i in range(1,10,2):
-#     print(i)
+for i in range(1,10,2):
+    print(i)
     
 print("========== While ===========")
 # While merupakan ekspresi yang akan dievaluasi dan menghasilkan nilai true atau false. 
 # Selama hasil evaluasi bernilai true, program akan terus berjalan hingga menghasilkan nilai false.
-# nilai = 1
-# while nilai <= 5:
-#     print(nilai)
-#     nilai += 2
+nilai = 1
+while nilai <= 5:
+    print(nilai)
+    nilai += 2
     
 print("========== For Bersarang/Nested loop ===========")
 # Nested Loop
@@ -40,12 +40,12 @@ keluar dari perulangan tersebut, lalu dilanjutkan dengan mengeksekusi blok perul
 Jika Anda memiliki perulangan yang bertingkat seperti for bersarang, break akan menghentikan perulangan 
 sesuai dengan tingkatan atau letak perulangannya berada.
 """
-# for i in range(2):       # Perulangan tingkat pertama
-#     print("Outer loop : ", i)
-#     for j in range(10):   # Perulangan tingkat kedua
-#         print("Inner loop : ", j)
-#         if j == 1:
-#             break   # Menghentikan perulangan dalam jika j = 1
+for i in range(2):       # Perulangan tingkat pertama
+    print("Outer loop : ", i)
+    for j in range(10):   # Perulangan tingkat kedua
+        print("Inner loop : ", j)
+        if j == 1:
+            break   # Menghentikan perulangan dalam jika j = 1
         
 # contoh lain break
 for huruf in "Din ar":
