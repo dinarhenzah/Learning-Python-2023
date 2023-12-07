@@ -14,3 +14,17 @@ Tips:
 var_array = [i for i in range(101)]
 
 # TODO: Silakan buat kode Anda di bawah ini.
+
+jumlah = 0
+banyak_elemen = 0
+
+for elemen in var_array:
+    jumlah += elemen
+    banyak_elemen += 1
+    
+if banyak_elemen > 0:
+    result = jumlah / banyak_elemen
+    print("Nilai rata-rata : ", result)
+else:
+    print("Array Kosong")
+
